@@ -23,7 +23,7 @@ def home(request):
         'app/base.html',
         context_instance = RequestContext(request,
             {
-                'attendee' : PRAMOD,    
+                'attendee' : YOUR_INFO,    
                 'year': datetime.now().year,
             })
     )
